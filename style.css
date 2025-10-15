@@ -57,7 +57,7 @@
             margin-right: auto;
 }
 #sobre {
-            background-color: white;
+            background-color: var(--light-color);
 }
         
 .about-content {
@@ -66,16 +66,17 @@
             gap: 50px;
 }
 .about-img {
-            flex: 1;
+            flex: -1;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
         
 .about-img img {
-            width: 50%;
+            width: 100%;
             height: auto;
             display: block;
+            
 }
         
 .about-text {
@@ -129,9 +130,7 @@
 }
         
 .projects-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+            
             
 }
         
